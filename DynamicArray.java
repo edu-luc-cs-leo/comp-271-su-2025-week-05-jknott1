@@ -104,7 +104,7 @@ public class DynamicArray {
             index++;
         }
         return count; //either returns 0 as the default or the number of instances.
-    } method countOf
+    } // method countOf
 
     /** method to remove items from the underlying array */
     public String remove(int index) {
@@ -133,7 +133,7 @@ public class DynamicArray {
             this.underlying = temp;
         }
         return retStr;
-    } method remove
+    } //method remove
 
     /** overload remove */ 
     public String remove(String string) {
@@ -164,7 +164,7 @@ public class DynamicArray {
             this.underlying = temp;
         }
         return retStr;
-    } method remove
+    } //method remove
 
     /** Complete this method */
     public String toString() {
@@ -188,6 +188,6 @@ public class DynamicArray {
         // builds the entire return string
         retStr = begString + midString + endString;
         return retStr;
-    } method toString
+    } //method toString
 
 } // class DynamicArray
